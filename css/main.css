@@ -119,6 +119,25 @@ nav a {
   overflow: hidden;
 }
 
+.browse-1 h3 {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+
+.browse-1 p {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+.browse-1 {
+  padding: 10px;
+  background-color: #e2e2e2;
+  overflow: hidden;
+}
+
 .p-1 {
   border: 2px solid grey;
 }
@@ -235,3 +254,42 @@ dd {
   display: block;
   padding-top: 5px;
 }
+
+.section-3 {
+  padding: 10px;
+  background-color: #e2e2e2;
+  overflow: hidden;
+}
+
+.section-3 .facebook {
+  float: left;
+  width: 20%;
+    padding-top: 50px;
+}
+
+.section-3 .twitter {
+  float: right;
+  width: 20%;
+  padding-top: 50px;
+}
+
+.section-3 .main {
+  width: 60%;
+  float: left;
+}
+
+/*.section-3 .facebook-text {
+  width: 20%;
+  font-size: 50%;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  margin-right: : 0;
+}
+
+.section-3 .twitter-text {
+  width: 20%;
+  font-size: 50%;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  float: right;
+}*/
