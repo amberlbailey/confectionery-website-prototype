@@ -50,22 +50,29 @@ body {
   margin: 0;
 }
 
-nav li {
-  font-family: 'Satisfy', cursive;
+.nav {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  padding: 5px;
-  border: 2px solid grey;
-  float: left;
-  width: 50%;
-  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.3rem;
 }
 
-nav ul {
-  margin: 0;
+nav li {
+  float: left;
+  width: 50%;
 }
 
 nav a {
-  font-size: 1.125rem;
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid grey;
+  text-align: center;
+}
+
+nav a {
   text-decoration: none;
   color: #000000;
 }
@@ -78,6 +85,7 @@ nav a {
 .about h2 {
   font-family: 'Satisfy', cursive;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .about p {
@@ -362,4 +370,115 @@ footer {
   padding: 2px;
   font-family: 'Muli', sans-serif;
   font-size: 10%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .about img {
+    width: 50%;
+  }
+
+  .nav a {
+    font-size: 1.4rem;
+  }
+
+  .about h2 {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    width: 35%;
+  }
+
+  .browse h3 {
+    font-size: 1.4rem;
+  }
+
+  .section-1 img{
+    width: 55%;
+  }
+
+  .section-1 h3 {
+    font-size: 1.4rem;
+  }
+
+  .section-1 p {
+    font-size: .9rem;
+  }
+
+  .card-4 .viewmore-1 {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .card-3 {
+    padding-bottom: 73.8px;
+  }
+
+  .section-2 img{
+    width: 55%;
+  }
+
+  .section-2 h3 {
+    font-size: 1.4rem;
+  }
+
+  .section-2 p {
+    font-size: .9rem;
+  }
+
+  .card-44 .viewmore-2 {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .card-33 {
+    padding-bottom: 73.8px;
+  }
+
+  .section-3 .main {
+    width: 55%;
+  }
+
+  .section-3 .twitter {
+    width: 22%;
+  }
+
+  .section-3 .facebook {
+    width: 22.5%;
+  }
+
+  .btn-review {
+    font-size: 1.1rem;
+  }
+
+  .btn-direct {
+    font-size: 1.1rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav li {
+    display: inline-block;
+    float: none;
+    width: 24.2%;
+  }
+
+  .about img {
+    width: 35%;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
 }
