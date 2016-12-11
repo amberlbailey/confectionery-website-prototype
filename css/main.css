@@ -78,7 +78,7 @@ nav a {
 }
 
 .about img {
-  width: 50%;
+  width: 40%;
   padding-top: 50px;
 }
 
@@ -174,40 +174,35 @@ dd {
   padding-bottom: 8px;
 }
 
-.card-1, .card-2, .card-3 {
+.card-1, .card-2, .card-3 .card-4 {
   padding-bottom: 20px;
 }
 
-.card-4 .viewmore-1 {
+ .viewmore-1 {
   margin: 0;
   border: 3px solid #333;
   text-decoration: none;
-  padding: .4em .75em .5em;
+  padding-top: 4px;
+  padding-bottom: 4px;
   color: #333;
   border-radius: 8px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  font-size: 50%;
+  font-size: 1rem;
   text-align: center;
   font-family: 'Satisfy', cursive;
 }
 
 .section-1 h3 {
   font-family: 'Satisfy', cursive;
+  font-size: 1.2rem
 }
 
-.section-1 p {
-  font-family: 'Muli', sans-serif;
-  font-size: 70%;
-  width: 99%;
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
-.section-1 img{
-  width: 50%;
+.section-1 img {
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -269,43 +264,15 @@ dd {
   overflow: hidden;
 }
 
-.section-3 .facebook {
-  float: left;
-  width: 20%;
-    padding-top: 50px;
-}
-
-.section-3 .twitter {
-  float: right;
-  width: 20%;
-  padding-top: 50px;
-}
-
 .section-3 .main {
-  width: 60%;
-  float: left;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-/*.section-3 .facebook-text {
-  width: 20%;
-  font-size: 50%;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  margin-right: : 0;
-}
-
-.section-3 .twitter-text {
-  width: 20%;
-  font-size: 50%;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  float: right;
-}*/
 
 .section-3 h2 {
   font-family: 'Satisfy', cursive;
   text-align: center;
-  padding-top: 20px;
   padding-bottom: 5px;
   margin-bottom: 0;
 }
@@ -369,13 +336,13 @@ footer {
   margin-top: 90px;
   padding: 2px;
   font-family: 'Muli', sans-serif;
-  font-size: 10%;
+  font-size: .5rem;
 }
 
 @media only screen and (min-width: 25em) {
 
   .about img {
-    width: 50%;
+    width: 40%;
   }
 
   .nav a {
@@ -441,14 +408,6 @@ footer {
     width: 55%;
   }
 
-  .section-3 .twitter {
-    width: 22%;
-  }
-
-  .section-3 .facebook {
-    width: 22.5%;
-  }
-
   .btn-review {
     font-size: 1.1rem;
   }
@@ -468,7 +427,7 @@ footer {
   }
 
   .about img {
-    width: 35%;
+    width: 40%;
   }
 
   .about h2 {
@@ -479,6 +438,67 @@ footer {
     font-size: 1.1rem;
     margin-right: 3rem;
     margin-left: 3rem;
+  }
+
+  .browse h3 {
+    font-size: 1.8rem;
+  }
+
+  .browse-1 h3 {
+    font-size: 1.8rem;
+  }
+
+  .section-1 h3 {
+    font-size: 1.5rem;
+  }
+
+  .section-1 p {
+    font-size: 1.1rem;
+  }
+
+  .section-2 h3 {
+    font-size: 1.5rem;
+  }
+
+  .section-2 p {
+    font-size: 1.1rem;
+  }
+
+  .section-3 .main {
+    width: 40%;
+  }
+
+  .section-3 h2 {
+    font-size: 1.8rem;
+  }
+
+  .section-3 h3 {
+    font-size: 1.3rem;
+  }
+
+  .section-4 h2 {
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav a {
+    font-size: 1.8rem;
+  }
+
+  .about img {
+    width: 30%;
+  }
+
+  .about p {
+    margin-right: 10rem;
+    margin-left: 10rem;
   }
 
 }
