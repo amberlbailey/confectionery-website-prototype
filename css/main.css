@@ -171,25 +171,22 @@ dd {
   width: 50%;
   text-align: center;
   overflow: hidden;
-  padding-bottom: 8px;
-}
-
-.card-1, .card-2, .card-3 {
   padding-bottom: 20px;
 }
 
-.card-4 .viewmore-1 {
+ .viewmore-1 {
   margin: 0;
   border: 3px solid #333;
   text-decoration: none;
-  padding: .4em .75em .5em;
   color: #333;
   border-radius: 8px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  font-size: 50%;
+  width: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.1rem;
   text-align: center;
   font-family: 'Satisfy', cursive;
 }
@@ -214,43 +211,26 @@ dd {
   padding-top: 5px;
 }
 
-.card-11, .card-22, .card-33, .card-44 {
-  border: 2px solid grey;
-  float: left;
-  width: 50%;
+.section-2 {
   text-align: center;
-  overflow: hidden;
-  padding-bottom: 8px;
 }
 
-.card-11, .card-22, .card-33 {
-  padding-bottom: 20px;
-}
-
-.card-44 .viewmore-2 {
-  margin: 0;
-  border: 3px solid #333;
-  text-decoration: none;
-  padding: .4em .75em .5em;
-  color: #333;
-  border-radius: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  font-size: 50%;
-  text-align: center;
+.section-2 h2 {
   font-family: 'Satisfy', cursive;
+  font-size: 1.5rem;
 }
 
 .section-2 h3 {
   font-family: 'Satisfy', cursive;
+  font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .section-2 p {
   font-family: 'Muli', sans-serif;
   font-size: 70%;
   width: 99%;
+  margin-top: 0;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -279,7 +259,6 @@ dd {
 .section-3 h2 {
   font-family: 'Satisfy', cursive;
   text-align: center;
-  padding-top: 20px;
   padding-bottom: 5px;
   margin-bottom: 0;
 }
@@ -301,7 +280,7 @@ dd {
   text-align: center;
 }
 
-.section-4 .btn-review {
+.section-3 .btn-review {
   border: 3px solid #333;
   text-decoration: none;
   padding: .4em .75em .5em;
@@ -313,7 +292,7 @@ dd {
   margin-left: 30px;
 }
 
-.section-4 .btn-direct {
+.section-3 .btn-direct {
   border: 3px solid #333;
   text-decoration: none;
   padding: .4em .75em .5em;
@@ -357,16 +336,16 @@ footer {
   }
 
   .about h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .btn {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 35%;
   }
 
   .browse h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .section-1 img{
@@ -381,17 +360,8 @@ footer {
     font-size: .9rem;
   }
 
-  .card-4 .viewmore-1 {
-    margin-top: 3rem;
-    font-size: 1.2rem;
-  }
-
-  .card-3 {
-    padding-bottom: 73.8px;
-  }
-
   .section-2 img{
-    width: 55%;
+    width: 40%;
   }
 
   .section-2 h3 {
@@ -463,10 +433,6 @@ footer {
     font-size: 1.1rem;
   }
 
-  .card-3 {
-    padding-bottom: 66.5px;
-  }
-
   .card-11 {
     padding-bottom: 20px;
   }
@@ -505,6 +471,14 @@ footer {
 
 }
 
+@media only screen and (min-width: 55em) {
+
+  .about img {
+
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .nav a {
@@ -518,6 +492,15 @@ footer {
   .about p {
     margin-right: 10rem;
     margin-left: 10rem;
+  }
+
+  .section-1 .card-1, .card-2, .card-4, .card-3 {
+    width: 25%;
+  }
+
+  .wrapper h1 {
+    font-size: 3rem;
+    margin-top: 0;
   }
 
 }
