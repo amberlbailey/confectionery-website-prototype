@@ -433,19 +433,15 @@ footer {
     font-size: 1.1rem;
   }
 
-  .card-11 {
-    padding-bottom: 20px;
-  }
-
-  .card-33 {
-    padding-bottom: 44px;
-  }
-
   .section-2 h3 {
     font-size: 1.5rem;
   }
 
   .section-2 p {
+    font-size: 1.1rem;
+  }
+
+  .section-3 p {
     font-size: 1.1rem;
   }
 
@@ -474,9 +470,36 @@ footer {
 @media only screen and (min-width: 55em) {
 
   .about img {
-
+    width: 30%;
   }
 
+  .about p {
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
+
+  .about .btn {
+    width: 20%;
+  }
+
+  .section-1 .card-1, .card-2, .card-4, .card-3 {
+    width: 25%;
+    margin-bottom: 50px;
+  }
+
+  .section-2 img {
+    width: 20%;
+  }
+
+  .wrapper {
+    float: left;
+  }
+
+  .nav {
+    float: left;
+    width: 70%;
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -494,9 +517,6 @@ footer {
     margin-left: 10rem;
   }
 
-  .section-1 .card-1, .card-2, .card-4, .card-3 {
-    width: 25%;
-  }
 
   .wrapper h1 {
     font-size: 3rem;
