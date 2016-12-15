@@ -35,6 +35,10 @@ h1 {
   padding: 0 1.5rem;
 }
 
+.wrapper img {
+  width: 60%;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -94,7 +98,7 @@ nav a {
 }
 
 .btn {
-  border: 3px solid #333;
+  border: 2px solid grey;
   text-decoration: none;
   padding: .4em .75em .5em;
   color: #333;
@@ -108,11 +112,30 @@ nav a {
   text-align: center;
 }
 
+.btn:hover {
+  background-color: #8eaee7;
+}
+
+.viewmore-1:hover {
+  background-color: #8eaee7;
+}
+
+.btn-direct:hover {
+  background-color: #8eaee7;
+}
+
+.btn-review:hover {
+  background-color: #8eaee7;
+}
+
+.browse {
+  background: linear-gradient(#8eaee7, #c0cde5);
+}
+
 .browse h3 {
   font-family: 'Satisfy', cursive;
   text-align: center;
   margin-bottom: 0;
-
 }
 
 .browse p {
@@ -176,7 +199,7 @@ dd {
 
  .viewmore-1 {
   margin: 0;
-  border: 3px solid #333;
+  border: 2px solid grey;
   text-decoration: none;
   color: #333;
   border-radius: 8px;
@@ -204,7 +227,7 @@ dd {
 }
 
 .section-1 img{
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -245,10 +268,9 @@ dd {
 
 .section-3 {
   padding: 10px;
-  background-color: #e2e2e2;
+  background: linear-gradient(#8eaee7, #c0cde5);
   overflow: hidden;
 }
-
 
 .section-3 .main {
   width: 60%;
@@ -281,7 +303,7 @@ dd {
 }
 
 .section-3 .btn-review {
-  border: 3px solid #333;
+  border: 2px solid grey;
   text-decoration: none;
   padding: .4em .75em .5em;
   color: #333;
@@ -293,7 +315,7 @@ dd {
 }
 
 .section-3 .btn-direct {
-  border: 3px solid #333;
+  border: 2px solid grey;
   text-decoration: none;
   padding: .4em .75em .5em;
   color: #333;
@@ -319,15 +341,19 @@ dd {
 footer {
   background-color: #e2e2e2;
   font-size: .9rem;
-  margin-top: 90px;
   padding: 2px;
   font-family: 'Muli', sans-serif;
   font-size: .5rem;
+  background: linear-gradient(#8eaee7, #c0cde5);
 }
 
 .nav a:hover {
   background-color: #8eaee7;
   box-shadow: 0px 0px 0px 1px #fff;
+}
+
+.footer-img img{
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -470,9 +496,15 @@ footer {
     font-size: 1rem;
   }
 
+  .footer-img {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 55em) {
 
   .about img {
     width: 30%;
@@ -504,6 +536,12 @@ footer {
     float: left;
     width: 70%;
     margin-top: 100px;
+  }
+
+  .footer-img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -589,6 +627,10 @@ footer {
     margin-right: 100px;
   }
 
-
+  .footer-img {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
 }
