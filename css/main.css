@@ -42,7 +42,7 @@ img {
 }
 
 header {
-  background-color: #e2e2e2;
+  background: linear-gradient(#8eaee7, #c0cde5);
   overflow: hidden;
 }
 
@@ -325,6 +325,11 @@ footer {
   font-size: .5rem;
 }
 
+.nav a:hover {
+  background-color: #8eaee7;
+  box-shadow: 0px 0px 0px 1px #fff;
+}
+
 @media only screen and (min-width: 25em) {
 
   .about img {
@@ -467,7 +472,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 55em) {
+@media only screen and (min-width: 60em) {
 
   .about img {
     width: 30%;
@@ -502,14 +507,14 @@ footer {
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
   .nav a {
     font-size: 1.8rem;
   }
 
   .about img {
-    width: 30%;
+    width: 20%;
   }
 
   .about p {
@@ -517,10 +522,73 @@ footer {
     margin-left: 10rem;
   }
 
-
   .wrapper h1 {
-    font-size: 3rem;
-    margin-top: 0;
+    font-size: 2.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    margin-left: 50px;
   }
+
+  .wrapper img {
+    width: 120%;
+  }
+
+  .nav {
+    margin-left: 50px;
+  }
+
+  .nav li {
+    margin-left: 45px;
+    width: 20%;
+  }
+
+  .about h2 {
+    font-size: 2.4rem;
+  }
+
+  .about p {
+    margin-right: 30rem;
+    margin-left: 30rem;
+  }
+
+  .about .btn {
+    width: 12%;
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+  }
+
+  .browse h3 {
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+  }
+
+  .section-1 h3 {
+    font-size: 2rem;
+  }
+
+  .viewmore-1 {
+    font-size: 1.5rem;
+  }
+
+  .section-2 h2 {
+    font-size: 2.4rem;
+  }
+
+  .section-2 h3 {
+    font-size: 1.8rem;
+  }
+
+  .btn-review {
+    font-size: 1.5rem;
+    margin-left: 100px;
+  }
+
+  .btn-direct {
+    font-size: 1.5rem;
+    margin-right: 100px;
+  }
+
+
 
 }
